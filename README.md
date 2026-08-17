@@ -1,7 +1,7 @@
-# Udaan Aarakshan (Agentic Airline Booking)
+# Udaan Aarakshan (Agentic Airline Booking) [Link](https://airline-bookings.vercel.app/) 
 
-![Architecture Diagram](Architecture.png)
 
+![Architecture Diagram](AirlineBookings/Architecture.png)
 Welcome to **Udaan Aarakshan**, a next-generation airline booking platform powered entirely by Agentic AI. 
 
 Unlike traditional airline websites that force users through 5 to 7 static web pages (Search -> Select -> Passengers -> Seats -> Baggage -> Payment), this application provides a **Seamless Single-Page Chat Interface**. The user simply chats naturally with the AI, and the AI autonomously triggers backend tools to progress the booking, rendering dynamic, interactive UI widgets (Flight Boards, Seat Maps) directly inside the chat window.
@@ -28,13 +28,13 @@ To ensure the app always returns flights during demos, it uses a 3-tier safety n
 
 For a deep dive into how the systems work, please refer to the files in the `docs/` directory:
 
-*   [Agent Flow & Decision Logic](docs/Agent_Flow.md) - Mermaid ReAct loop diagram.
-*   [Technical Architecture](docs/technical.md) - Tech stack, gateway failover, and pricing mechanism test results.
-*   [Memory & Context Management](docs/memory.md) - How the zero-framework transactional rollback works.
-*   [Backend Overview](docs/backend_README.md) - FastAPI structure and Orchestrators.
-*   [Frontend Overview](docs/frontend_README.md) - React structure and dynamic card rendering.
-*   [Tools Index](docs/tools.md) - Exhaustive inputs/outputs for the AI's backend tools.
-*   [Development Challenges](docs/Challenges.md) - API constraints, the Gemini signature bug, and UI deduplication.
+*   [Agent Flow & Decision Logic](AirlineBookings/docs/Agent_Flow.md) - Mermaid ReAct loop diagram.
+*   [Technical Architecture](AirlineBookings/docs/technical.md) - Tech stack, gateway failover, and pricing mechanism test results.
+*   [Memory & Context Management](AirlineBookings/docs/memory.md) - How the zero-framework transactional rollback works.
+*   [Backend Overview](AirlineBookings/docs/backend_README.md) - FastAPI structure and Orchestrators.
+*   [Frontend Overview](AirlineBookings/docs/frontend_README.md) - React structure and dynamic card rendering.
+*   [Tools Index](AirlineBookings/docs/tools.md) - Exhaustive inputs/outputs for the AI's backend tools.
+*   [Development Challenges](AirlineBookings/docs/Challenges.md) - API constraints, the Gemini signature bug, and UI deduplication.
 
 ## Tech Stack
 *   **Frontend:** React, Vite, CSS
