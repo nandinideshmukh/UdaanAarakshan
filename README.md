@@ -36,8 +36,13 @@ For a deep dive into how the systems work, please refer to the files in the `doc
 *   [Tools Index](AirlineBookings/docs/tools.md) - Exhaustive inputs/outputs for the AI's backend tools.
 *   [Development Challenges](AirlineBookings/docs/Challenges.md) - API constraints, the Gemini signature bug, and UI deduplication.
 
+
 ## Tech Stack
 *   **Frontend:** React, Vite, CSS
 *   **Backend:** Python, FastAPI, Pydantic
 *   **Database/Cache:** Upstash Redis
 *   **Deployment:** Vercel (Monorepo setup)
+  
+## Note:
+* This project is still in progress , will implement some System Design concepts like Load balancing , ratelimiting / throttling , etc.
+* It has free tier APIs calls so ratelimit error is likely to occur . 
